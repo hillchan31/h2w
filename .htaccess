@@ -1,0 +1,6 @@
+RewriteEngine on 
+ 
+RewriteCond $1 !^(index\.php|images|robots\.txt) 
+ 
+RewriteRule ^(.*)$ /h2w/index.php/$1 [L]
+#RewriteRule ^(.*)$ /index.php/$1 [L]
